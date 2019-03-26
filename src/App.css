@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+
+#root, .ant-layout{
+height: 100%;
+}
+.header-title{
+  color: #ffffff;
+}
+
+.loader-container{
+  padding: 30px 0;
+  text-align: center;
+}
+
+.row {
+  padding: 5px;
+}
+
+.row:hover {
+  background-color: lightblue;
+}
+
+.row_selected {
+  background-color: orange;
+}
+
+.row_selected:hover {
+  background-color: orange;
+}
